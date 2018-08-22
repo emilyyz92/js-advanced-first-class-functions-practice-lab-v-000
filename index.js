@@ -24,5 +24,5 @@ const driversByRevenue = function (driversArray) {
 
 const driversByName = function (driversArray) {
   const newDriversArray = [...driversArray];
-  return newDriversArray.sort( function(a,b) { return a.localecomapre(b)})
+  return newDriversArray.sort( function(a,b) { return a["name"].localecomapre(b["name"])})
 }
