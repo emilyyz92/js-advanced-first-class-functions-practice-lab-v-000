@@ -10,5 +10,6 @@ const logDriversByHometown = function (driversArray, hometown) {
     return element.toLowerCase() === hometown.toLowerCase()
   }
 )
+debugger;
 logDriverNames(nameArray);
 }
