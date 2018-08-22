@@ -26,3 +26,9 @@ const driversByName = function (driversArray) {
   const newDriversArray = [...driversArray];
   return newDriversArray.sort( function(a,b) { return a["name"].localeCompare(b["name"])})
 }
+
+const totalRevenue = function (driversArray) {
+  driversArray.reduce(function (accumulator, driver) {
+    accumulator + driver["revenue"]
+  })
+}
