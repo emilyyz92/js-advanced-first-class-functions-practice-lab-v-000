@@ -32,3 +32,9 @@ const totalRevenue = function (driversArray) {
     return accumulator + driver["revenue"];
   }, 0)
 }
+
+const averageRevenue = function (driversArray) {
+  return driversArray.reduce(function (accumulator, driver, i) {
+    return
+  })
+}
