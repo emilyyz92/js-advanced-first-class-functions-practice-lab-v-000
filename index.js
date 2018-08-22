@@ -7,7 +7,7 @@ const logDriverNames = function (driversArray) {
 
 const logDriversByHometown = function (driversArray, hometown) {
   const nameArray = driversArray.filter( function (element) {
-    return element.toLowerCase() === hometown.toLowerCase()
+    return element["hometown"].toLowerCase() === hometown.toLowerCase()
   }
 )
 debugger;
