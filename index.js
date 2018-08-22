@@ -16,7 +16,7 @@ logDriverNames(nameArray);
 
 const driversByRevenue = function (driversArray) {
   const newDriversArray = [...driversArray];
-  driversArray.sort( function(a, b) {
+  newDriversArray.sort( function(a, b) {
     return a["revenue"] - b["revenue"]
   })
 }
