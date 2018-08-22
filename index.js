@@ -21,3 +21,8 @@ const driversByRevenue = function (driversArray) {
   })
   return newDriversArray;
 }
+
+const driversByName = function (driversArray) {
+  const newDriversArray = [...driversArray];
+  return newDriversArray.sort( function(a,b) { return a.localecomapre(b)})
+}
